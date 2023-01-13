@@ -142,8 +142,10 @@ hr{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .course-duration{
-        text-align: center;
+    .course-dur{
+        display: flex;
+        justify-content: center;
+        padding: 12px 0;
     }
 }
 @media screen and (min-width:689px) and (max-width:992px) {
